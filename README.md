@@ -8,7 +8,7 @@
 
 Consulte o meu perfil <a href="https://github.com/alexandervieira/alexandervieira/blob/master/README.md">aqui</a>.
 
-<h1 align="center" style="font-weight: bold;">Meu Projeto 💻</h1>
+<h1 align="center" style="font-weight: bold;">NerdStoreShopping 💻</h1>
 
 ## Índice
 
@@ -31,7 +31,7 @@ Consulte o meu perfil <a href="https://github.com/alexandervieira/alexandervieir
 
 ## Descrição
 
-- Descreva seu projeto aqui
+- Exemplo de uso de Microsserviços + .NET 6 + ASP.NET MVC Core + ASP.NET Core APIs REST + RabbitMQ + Duende (IdentityServer) + Database MySQL.
 
 ## Lista de comandos úteis do GIT
 
@@ -56,41 +56,34 @@ Consulte <a href="https://github.com/alexandervieira/repositorio-base/blob/maste
 [CSHARP_BADGE]:https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white
 [SWAGGER_BADGE]:https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white
 [SQLSERVER_BADGE]:https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white
+[MySQL_BADGE]:https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white
 
 ![.Net][DOTNET_BADGE]
 ![C#][CSHARP_BADGE]
 ![Azure][AZURE_BADGE]
 ![Swagger][SWAGGER_BADGE]
-![MicrosoftSQLServer][SQLSERVER_BADGE]
+![MySQL][MySQL_BADGE]
+<!--![MicrosoftSQLServer][SQLSERVER_BADGE]-->
 
 - .NET 6
     - ASP.NET MVC Core
     - ASP.NET WebApi
     - ASP.NET Minimal API
     - ASP.NET Identity Core
+    - AUTH2
+    - OPENID CONNECT
     - Refresh Token
     - JWT with rotactive public / private key    
-    - GRPC
     - Background Services
     - Entity Framework Core 6
 
 - Components / Services
-    - RabbitMQ
-    - EasyNetQ
-    - Refit 
-    - Polly
-    - Bogus
-    - Dapper
-    - FluentValidator
-    - MediatR
+    - IdentityServer
+    - RabbitMQ    
     - Swagger UI with JWT support
-    - NetDevPack
-    - NetDevPack.Identity
-    - NetDevPack.Security.JWT
-
+    
 - Hosting
-    - IIS
-    - NGINX
+    - IIS    
     - Docker (with compose)
 
 ## Arquitetura
@@ -100,16 +93,8 @@ Consulte <a href="https://github.com/alexandervieira/repositorio-base/blob/maste
 - Hexagonal Architecture
 - Clean Code
 - Clean Architecture
-- DDD - Domain Driven Design (Layers and Domain Model Pattern)
-- Domain Events
-- Domain Notification
-- Domain Validations
-- CQRS (Imediate Consistency)
-- Retry Pattern
-- Circuit Breaker
 - Unit of Work
 - Repository
-- Specification Pattern
 - API Gateway / BFF
 
 ---
